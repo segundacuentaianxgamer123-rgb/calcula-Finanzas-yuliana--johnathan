@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: rgba(0,0,0,0.6); /* bloque transparente */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px; /* bordes redondeados */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #ffd700;
+}
+
+.imagen {
+  width: 250px;
+  margin-top: 15px;
+}
+
+.formulario, .grafica, .resultados, .conclusiones, .teoria-final {
+  background: rgba(255,255,255,0.1); /* transparencia */
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form input {
+  width: 220px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+button {
+  width: 140px;
+  padding: 8px;
+  background: #ffd700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  color: #000;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background: #ffd700;
+}
